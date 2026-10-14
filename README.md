@@ -9,3 +9,6 @@ it comes with also the framework
 to download it and make your own blocky editor i dont even care at this point 
 now credits to pygame and pyopengl with the thinker i think and also the python foundation software 
 your are good persons :)
+
+
+(for got to methond to get the framework you download it from the branchs you know go to branchs and framework that how you get it)
