@@ -11,4 +11,4 @@ now credits to pygame and pyopengl with the thinker i think and also the python 
 your are good persons :)
 
 
-(for got to methond to get the framework you download it from the branchs you know go to branchs and framework that how you get it)
+(for got to methond to get the framework you download it from the branchs you know go to branchs and framework that how you get it and also is on the release page title scratch_engine.zip that was the orginal name before i change it)
