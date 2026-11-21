@@ -11,4 +11,5 @@ cuz the software also uses a some libray like here
 pygame 
 pyopengl
 and tkinter
-you can without credit me in the software or engine i dont care 
+box2d 
+please credit me under the mit license
