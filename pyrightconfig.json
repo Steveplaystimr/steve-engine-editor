@@ -1,0 +1,14 @@
+{
+  "include": [
+    "main.py",
+    "engine_editor"
+  ],
+  "executionEnvironments": [
+    {
+      "root": ".",
+      "extraPaths": [
+        "."
+      ]
+    }
+  ]
+}

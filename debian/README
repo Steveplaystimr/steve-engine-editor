@@ -1,0 +1,24 @@
+Steve Engine Editor and Steve Game Player bundle Python and the application
+dependencies they use: Tkinter/Tcl/Tk, Pygame, PyOpenGL, Pillow, and Box2D.
+Steve Game Player opens and runs `.sse` projects directly.
+
+The package records the build machine's glibc version as its minimum `libc6`
+dependency. Build on the oldest Debian/Ubuntu release you want to support;
+newer systems may not satisfy that dependency. For example, a build on Ubuntu
+26.04 with glibc 2.43 requires glibc 2.43 or newer.
+
+Install the build dependencies, then run:
+
+    sudo apt install python3 python3-venv python3-dev build-essential cmake git \
+        dpkg-dev libsdl2-dev libsdl2-image-dev libsdl2-mixer-dev \
+        libsdl2-ttf-dev libasound2-dev
+    ./build_deb.sh
+
+The script builds for the current machine architecture and writes the package
+to `dist/steve-engine-editor_1.2.2.1_<architecture>.deb`. Install it with:
+
+    arch=$(dpkg --print-architecture)
+    sudo apt install "./dist/steve-engine-editor_1.2.2.1_${arch}.deb"
+
+The package installs the editor and its example Python mods. It does not
+include games created by users.

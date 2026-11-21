@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Steve Game Player
+Comment=Play Steve Engine Editor .sse projects
+Exec=steve-game-player
+Terminal=false
+Categories=Game;

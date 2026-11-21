@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Steve Engine Editor
+Comment=Create games with block-based scripting
+Exec=steve-engine-editor
+Terminal=false
+Categories=Development;Education;Game;

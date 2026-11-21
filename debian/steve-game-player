@@ -1,0 +1,2 @@
+#!/bin/sh
+exec /usr/lib/steve-engine-editor/player/steve-game-player "$@"
